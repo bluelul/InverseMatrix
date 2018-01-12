@@ -141,7 +141,7 @@ int main()
  
     cout << "Input matrix is :\n";
     display(A);
-    cout << determinant(A, N)<<endl;
+    cout << "Determinant: "<<determinant(A, N)<<endl;
  
     cout << "\nThe Adjoint is :\n";
     adjoint(A, adj);
